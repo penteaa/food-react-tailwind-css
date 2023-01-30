@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1
+  }
+}
+
+body {
+  background: linear-gradient(#e9def1, #bccad3);
+}
